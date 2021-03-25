@@ -1,0 +1,4 @@
+[submodule "ArduinoCore-samd"]
+	path = ArduinoCore-samd
+	url = git@github.com:versioduo/ArduinoCore-samd.git
+	branch = versioduo
