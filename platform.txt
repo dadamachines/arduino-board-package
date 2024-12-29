@@ -1,4 +1,4 @@
-name=dadamachines
+name=dadamachines:samd
 version=9
 
 # Compile variables
