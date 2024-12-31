@@ -10,7 +10,7 @@ compiler.warning_flags.default=-Wno-expansion-to-defined -Wsign-compare -Wfloat-
 compiler.warning_flags.more=-Wall -Wno-expansion-to-defined
 compiler.warning_flags.all=-Wall -Wextra -Wno-expansion-to-defined
 
-compiler.path={runtime.tools.arm-none-eabi-gcc.path}/bin/
+compiler.path=/home/runner/gcc-arm-none-eabi-13.2.1-linux/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/bin
 compiler.c.cmd=arm-none-eabi-gcc
 compiler.c.flags=-mcpu={build.mcu} -mthumb -c -g -Os -DNDEBUG {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -MMD -D__SKETCH_NAME__="""{build.project_name}"""
 compiler.c.elf.cmd=arm-none-eabi-g++
